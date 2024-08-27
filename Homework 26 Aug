@@ -3069,6 +3069,7 @@
         "  if x %2 !=0 and x <= 10 :\n",
         "    print (f\"We continue for a bit, but {x} is an odd number\")\n",
         "    x +=1\n",
+        "    continue\n",
         "  if x == 8:\n",
         "    break\n",
         "else:\n",
@@ -3076,12 +3077,12 @@
       ],
       "metadata": {
         "id": "D4GIX0LHEKPb",
-        "outputId": "7f456778-ca37-457c-a712-6dd55d07cc80",
+        "outputId": "3d144370-b48b-4ea7-cad3-fc4e90589ee4",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 1,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -3090,7 +3091,11 @@
             "4 is an even number, we are fine\n",
             "We continue for a bit, but 5 is an odd number\n",
             "6 is an even number, we are fine\n",
-            "We continue for a bit, but 7 is an odd number\n"
+            "We continue for a bit, but 7 is an odd number\n",
+            "8 is an even number, we are fine\n",
+            "We continue for a bit, but 9 is an odd number\n",
+            "10 is an even number, we are fine\n",
+            "Oh, oh, now we stop. We reached 11\n"
           ]
         }
       ]
